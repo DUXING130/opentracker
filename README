@@ -1,14 +1,14 @@
 This is opentracker. An open bittorrent tracker.
 
-You need libowfat (http://www.fefe.de/libowfat/).
+You need libowfat (https://www.fefe.de/libowfat/).
 
 Steps to go:
 
-cvs -d :pserver:cvs@cvs.fefe.de:/cvs -z9 co libowfat
+Download latest libowfat
 cd libowfat
 make
 cd ..
-cvs -d:pserver:anoncvs@cvs.erdgeist.org:/home/cvsroot co opentracker
+git clone git://erdgeist.org/opentracker
 cd opentracker
 make
 ./opentracker
