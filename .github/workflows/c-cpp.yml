@@ -19,6 +19,8 @@ jobs:
       run: tar -xf libowfat-0.34.tar.xz
     - name: rename
       run: mv libowfat-0.34 libowfat
+    - name: go to libowfat
+      run: cd libowfat
     - name: build libowfat
       run: make
     - name: go to opentracker
