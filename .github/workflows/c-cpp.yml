@@ -23,8 +23,6 @@ jobs:
       run: cd libowfat
     - name: build libowfat
       run: make
-    - name: go to opentracker
-      run: cd ../opentracker
     - name: configure
       run: ./configure
     - name: make
