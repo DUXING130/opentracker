@@ -23,7 +23,6 @@ jobs:
       run: make
     - name: go to opentracker
       run: cd ../opentracker
-    - name: build 
     - name: configure
       run: ./configure
     - name: make
